@@ -49,8 +49,8 @@ Six virtual sensors publish data every 2 seconds. The Flask server subscribes to
 **Requirements:** Docker and Docker Compose.
 
 ```bash
-git clone https://github.com/Sarc120p/Sensorflowmqtt.git
-cd sensorflow-mqtt
+git clone https://github.com/Sarc120p/SensorFlowmqtt.git
+cd SensorFlowmqtt
 docker compose --profile full up --build
 ```
 
@@ -74,8 +74,8 @@ docker compose down
 
 ```bash
 # 1. Clone and create virtual environment
-git clone https://github.com/Sarc120p/Sensorflowmqtt.git
-cd sensorflow-mqtt
+git clone https://github.com/Sarc120p/SensorFlowmqtt.git
+cd SensorFlowmqtt
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
