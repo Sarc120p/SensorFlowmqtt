@@ -18,7 +18,7 @@ import paho.mqtt.client as mqtt
 # Configuration
 # ------------------------------------------------------------
 CONFIG_PATH = Path(__file__).parent / "config" / "sensors.json"
-BROKER = os.environ.get("MQTT_BROKER", "broker.hivemq.com")
+BROKER = os.environ.get("MQTT_BROKER", "localhost")
 PORT = int(os.environ.get("MQTT_PORT", 1883))
 HEARTBEAT_INTERVAL = 5  # seconds between heartbeat messages
 
