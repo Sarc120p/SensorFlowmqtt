@@ -1,0 +1,77 @@
+{
+    "publish_interval": 2,
+    "sensors": [
+        {
+            "id": "temp-001",
+            "type": "temperature",
+            "unit": "C",
+            "topic": "sensors/temperature/temp-001",
+            "min": 20.0,
+            "max": 35.0,
+            "variation": 1.5,
+            "heartbeat": "heartbeat/temp-001",
+            "hysteresis": 1.0,
+            "criticality": "warning"
+        },
+        {
+            "id": "temp-002",
+            "type": "temperature",
+            "unit": "C",
+            "topic": "sensors/temperature/temp-002",
+            "min": 22.0,
+            "max": 32.0,
+            "variation": 2.0,
+            "heartbeat": "heartbeat/temp-002",
+            "hysteresis": 1.0,
+            "criticality": "critical"
+        },
+        {
+            "id": "press-001",
+            "type": "pressure",
+            "unit": "kPa",
+            "topic": "sensors/pressure/press-001",
+            "min": 98.0,
+            "max": 106.0,
+            "variation": 1.0,
+            "heartbeat": "heartbeat/press-001",
+            "hysteresis": 0.5,
+            "criticality": "warning"
+        },
+        {
+            "id": "press-002",
+            "type": "pressure",
+            "unit": "kPa",
+            "topic": "sensors/pressure/press-002",
+            "min": 95.0,
+            "max": 108.0,
+            "variation": 2.5,
+            "heartbeat": "heartbeat/press-002",
+            "hysteresis": 0.5,
+            "criticality": "critical"
+        },
+        {
+            "id": "humid-001",
+            "type": "humidity",
+            "unit": "%",
+            "topic": "sensors/humidity/humid-001",
+            "min": 40.0,
+            "max": 75.0,
+            "variation": 3.0,
+            "heartbeat": "heartbeat/humid-001",
+            "hysteresis": 2.0,
+            "criticality": "info"
+        },
+        {
+            "id": "humid-002",
+            "type": "humidity",
+            "unit": "%",
+            "topic": "sensors/humidity/humid-002",
+            "min": 35.0,
+            "max": 70.0,
+            "variation": 2.5,
+            "heartbeat": "heartbeat/humid-002",
+            "hysteresis": 2.0,
+            "criticality": "info"
+        }
+    ]
+}
