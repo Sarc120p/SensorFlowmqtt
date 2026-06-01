@@ -9,8 +9,6 @@
 
 **SensorFlow** is an open-source industrial IoT monitoring system built with Python, Flask, and MQTT. It simulates a network of industrial sensors, streams live data to a dark-themed SCADA dashboard, triggers intelligent alarms with hysteresis, and exports historical data to CSV.
 
-> **Live demo:** [https://sensorflow.up.railway.app](https://sensorflow.up.railway.app) *(hosted on Railway)*
-
 ---
 
 ## Overview
