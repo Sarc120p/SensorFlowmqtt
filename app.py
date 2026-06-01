@@ -37,7 +37,7 @@ app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 db = SQLAlchemy(app)
 
 # MQTT broker address – overridable via environment variable
-BROKER = os.environ.get("MQTT_BROKER", "broker.hivemq.com")
+BROKER = os.environ.get("MQTT_BROKER", "localhost")
 PORT = int(os.environ.get("MQTT_PORT", 1883))
 
 # ------------------------------------------------------------
